@@ -1,5 +1,5 @@
 
-const int motorpin= 3;
+const int motorpin= 5;
 int val = 20;
 int fadeAmount = 1;
 
@@ -10,7 +10,7 @@ void setup()
 
 void loop() 
 {
-  /* 
+  
   //motor fade in fade out with for loop
   
   for (int i = 255; i >= 30; i -= 1)
@@ -24,8 +24,8 @@ void loop()
     analogWrite(motorpin, i);
     delay(30);
   }
-  */
   
+  /*
   //with if
   analogWrite(motorpin, val);
   delay(30);
@@ -35,6 +35,6 @@ void loop()
   {
     fadeAmount = -fadeAmount;
   }
-  
+  */
   
 }
