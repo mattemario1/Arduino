@@ -28,6 +28,7 @@ void setup() {
     radio.setDataRate( RF24_250KBPS );
     radio.openReadingPipe(1, thisSlaveAddress);
     radio.startListening();
+    delay(10);
 }
 
 //=============
