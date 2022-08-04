@@ -12,6 +12,7 @@ void setup() {
 	pinMode(J, INPUT);
 
 	Serial.begin(9600);
+	delay(10);
 }
 
 void loop() {
